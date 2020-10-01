@@ -25,7 +25,7 @@ SECRET_KEY = 'g$8)nu=@#!q1!+-pk*6!9*br$r^=ni3b!3&9t5=wsp0jynbuwl'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '0.0.0.0']
 
 CORS_ORIGIN_ALLOW_ALL=True
 # Application definition
