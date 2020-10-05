@@ -1,0 +1,13 @@
+apiVersion: skaffold/v2beta8
+kind: Config
+build:
+  local:
+    push: true
+    useDockerCLI: true
+  artifacts:
+  - image: localhost:32000/c1d58cf9cc6b
+deploy:
+  kubectl:
+    manifests:
+      - k8s-*
+
